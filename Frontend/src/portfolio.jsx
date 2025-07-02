@@ -48,15 +48,7 @@ import postmanIcon from "../Pictures/PostMan.png";
 import { useState } from "react";
 import axios from "axios";
 
-// Example of proper async message handling
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  if (request.type === "someRequest") {
-    // Indicate we'll respond async
-    const promise = doAsyncWork(); 
-    promise.then(sendResponse).catch(sendResponse);
-    return true; // Keep message channel open
-  }
-});
+
 function Portfolio() {
   const [formData, setFormData] = useState({
     userName: "",
