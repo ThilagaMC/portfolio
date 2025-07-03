@@ -234,10 +234,11 @@ function Portfolio() {
   <a href="#project" className="btn btn-hero btn-hero-primary m-1">
     View Projects
   </a>
-  <a
-  href="../public/assets/Thilagavathi-Resume.pdf"
-  download="Thilagavathi_Resume.pdf"
+ <a
+  href="https://drive.google.com/uc?export=download&id=14tNfBhnIYWFa8evLmQUGNGHAuWfxPUQv"
   className="btn btn-hero btn-hero-primary m-1"
+  target="_blank"
+  rel="noopener noreferrer"
 >
   Download Resume
 </a>
