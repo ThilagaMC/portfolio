@@ -20,6 +20,32 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 // Import all images
+import profilePic from './assets/IMG_7609.jpg';
+import lcmIcon from './assets/LCM.svg';
+import authIcon from './assets/Authorization.png';
+import mfaIcon from './assets/MFA.png';
+import roleIcon from './assets/Role.png';
+import identityIcon from './assets/Identity.png';
+import automationIcon from './assets/automation.png';
+import htmlIcon from './assets/HTML.png';
+import cssIcon from './assets/css.png';
+import jsIcon from './assets/JS.png';
+import reactIcon from './assets/React.png';
+import nodeIcon from './assets/NodeJS.png';
+import dbIcon from './assets/DB.png';
+import apiIcon from './assets/RESTfulAPI.png';
+import authAuthIcon from './assets/Authetication&Authorization.png';
+import javaIcon from './assets/java.png';
+import dsIcon from './assets/DS.png';
+import psIcon from './assets/PS.png';
+import cIcon from './assets/c.png';
+import oktaIcon from './assets/okta.png';
+import entraIcon from './assets/EntaID.png';
+import workflowIcon from './assets/workflow.png';
+import powerAutomateIcon from './assets/PA.png';
+import gitIcon from './assets/Git.png';
+import postmanIcon from './assets/PostMan.png';
+
 // import profilePic from "../public/Pictures/IMG_7609.JPG";
 // import lcmIcon from "../public/Pictures/LCM.svg";
 // import authIcon from "../public/Pictures/Authorization.png";
@@ -252,9 +278,9 @@ function Portfolio() {
             <div className="col-lg-4 mt-5 mt-lg-0 text-center">
               <div className="profile-frame position-relative">
                 <img
-                  // src={profilePic}
                   // src='/IMG_7609.jpg'
-                  src='./assets/IMG_7609.jpg'
+                  // src='./assets/IMG_7609.jpg'
+                  src={profilePic}
                   alt="Thilagavathi MC"
                   className="profile-img img-fluid rounded-4 shadow-lg"
                 />
@@ -286,8 +312,8 @@ function Portfolio() {
                 <div className="card-body text-center p-4">
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
-                      // src={lcmIcon}
-                      src='/LCM.svg'
+                      src={lcmIcon}
+                      // src='/LCM.svg'
                       alt="Identity Lifecycle Management"
                       className="skill-icon"
                     />
@@ -316,8 +342,8 @@ function Portfolio() {
                 <div className="card-body text-center p-4">
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
-                      // src={authIcon}
-                      src='/Authorization.png'
+                      src={authIcon}
+                      // src='/Authorization.png'
                       alt="Authorization Protocols"
                       className="skill-icon"
                     />
@@ -343,8 +369,8 @@ function Portfolio() {
                 <div className="card-body text-center p-4">
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
-                      // src={mfaIcon}
-                      src='/MFA.png'
+                      src={mfaIcon}
+                      // src='/MFA.png'
                       alt="Multi-Factor Authentication"
                       className="skill-icon"
                     />
@@ -370,8 +396,8 @@ function Portfolio() {
                 <div className="card-body text-center p-4">
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
-                      // src={roleIcon}
-                      src='/Role.png'
+                      src={roleIcon}
+                      // src='/Role.png'
                       alt="RBAC & ABAC"
                       className="skill-icon"
                     />
@@ -399,8 +425,8 @@ function Portfolio() {
                 <div className="card-body text-center p-4">
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
-                      // src={identityIcon}
-                      src='/Identity.png'
+                      src={identityIcon}
+                      // src='/Identity.png'
                       alt="Identity Federation"
                       className="skill-icon"
                     />
@@ -424,8 +450,8 @@ function Portfolio() {
                 <div className="card-body text-center p-4">
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
-                      // src={automationIcon}
-                      src='/automation.png'
+                      src={automationIcon}
+                      // src='/automation.png'
                       alt="Automation"
                       className="skill-icon"
                     />
@@ -526,8 +552,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={htmlIcon}
-                          src='/HTML.png'
+                          src={htmlIcon}
+                          // src='/HTML.png'
                           alt="HTML5"
                           className="skill-icon"
                         />
@@ -551,8 +577,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img 
-                        // src={cssIcon}
-                        src='/css.png'
+                        src={cssIcon}
+                        // src='/css.png'
                          alt="CSS3" className="skill-icon" />
                       </div>
                       <h5 className="card-title mb-3">CSS3</h5>
@@ -574,8 +600,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={jsIcon}
-                          src='/JS.png'
+                          src={jsIcon}
+                          // src='/JS.png'
                           alt="JavaScript"
                           className="skill-icon"
                         />
@@ -597,8 +623,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={reactIcon}
-                          src='/React.png'
+                          src={reactIcon}
+                          // src='/React.png'
                           alt="React.js"
                           className="skill-icon"
                         />
@@ -631,8 +657,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={nodeIcon}
-                          src='/NodeJS.png'
+                          src={nodeIcon}
+                          // src='/NodeJS.png'
                           alt="Node.js"
                           className="skill-icon"
                         />
@@ -656,8 +682,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={dbIcon}
-                          src='/DB.png'
+                          src={dbIcon}
+                          // src='/DB.png'
                           alt="MongoDB"
                           className="skill-icon"
                         />
@@ -681,8 +707,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={apiIcon}
-                          src='/RESTfulAPI.png'
+                          src={apiIcon}
+                          // src='/RESTfulAPI.png'
                           alt="RESTful APIs"
                           className="skill-icon"
                         />
@@ -706,8 +732,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={authAuthIcon}
-                          src='/Authetication&Authorization.png'
+                          src={authAuthIcon}
+                          // src='/Authetication&Authorization.png'
                           alt="Authentication"
                           className="skill-icon"
                         />
@@ -739,8 +765,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img 
-                        // src={javaIcon}
-                        src='/java.png'
+                        src={javaIcon}
+                        // src='/java.png'
                         alt="Java" className="skill-icon" />
                       </div>
                       <h5 className="card-title mb-3">Java</h5>
@@ -760,8 +786,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={dsIcon}
-                          src='/DS.png'
+                          src={dsIcon}
+                          // src='/DS.png'
                           alt="Data Structures"
                           className="skill-icon"
                         />
@@ -785,8 +811,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={psIcon}
-                          src='/PS.png'
+                          src={psIcon}
+                          // src='/PS.png'
                           alt="PowerShell"
                           className="skill-icon"
                         />
@@ -810,8 +836,8 @@ function Portfolio() {
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
-                          // src={cIcon}
-                          src='/C.png'
+                          src={cIcon}
+                          // src='/C.png'
                           alt="C Programming"
                           className="skill-icon"
                         />
@@ -893,8 +919,8 @@ function Portfolio() {
                   <div className="card-body text-center p-5">
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
-                        // src={oktaIcon}
-                        src='/Okta.png'
+                        src={oktaIcon}
+                        // src='/Okta.png'
                         alt="Okta"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -929,8 +955,8 @@ function Portfolio() {
                   <div className="card-body text-center p-5">
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
-                        // src={entraIcon}
-                        src='/Entra.png'
+                        src={entraIcon}
+                        // src='/Entra.png'
                         alt="Microsoft Entra"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -962,8 +988,8 @@ function Portfolio() {
                   <div className="card-body text-center p-5">
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
-                        // src={workflowIcon}
-                        src='/Workflows.png'
+                        src={workflowIcon}
+                        // src='/Workflows.png'
                         alt="Okta Workflows"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -998,8 +1024,8 @@ function Portfolio() {
                   <div className="card-body text-center p-5">
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
-                        // src={powerAutomateIcon}
-                        src='/PowerAutomate.png'
+                        src={powerAutomateIcon}
+                        // src='/PowerAutomate.png'
                         alt="Power Automate"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -1034,8 +1060,8 @@ function Portfolio() {
                   <div className="card-body text-center p-5">
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
-                        // src={gitIcon}
-                        src='/GitHub.png'
+                        src={gitIcon}
+                        // src='/GitHub.png'
                         alt="GitHub"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -1071,8 +1097,8 @@ function Portfolio() {
                   <div className="card-body text-center p-5">
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
-                        // src={postmanIcon}
-                        src='/Postman.png'
+                        src={postmanIcon}
+                        // src='/Postman.png'
                         alt="Postman"
                         className="img-fluid"
                         style={{ height: "60px" }}
