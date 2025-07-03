@@ -253,7 +253,7 @@ function Portfolio() {
               <div className="profile-frame position-relative">
                 <img
                   // src={profilePic}
-                  src='/Pictures/IMG_7609.jpg'
+                  src='/IMG_7609.jpg'
                   alt="Thilagavathi MC"
                   className="profile-img img-fluid rounded-4 shadow-lg"
                 />
@@ -286,7 +286,7 @@ function Portfolio() {
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
                       // src={lcmIcon}
-                      src='/Pictures/LCM.svg'
+                      src='/LCM.svg'
                       alt="Identity Lifecycle Management"
                       className="skill-icon"
                     />
@@ -316,7 +316,7 @@ function Portfolio() {
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
                       // src={authIcon}
-                      src='/Pictures/Authorization.png'
+                      src='/Authorization.png'
                       alt="Authorization Protocols"
                       className="skill-icon"
                     />
@@ -343,7 +343,7 @@ function Portfolio() {
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
                       // src={mfaIcon}
-                      src='/Pictures/MFA.png'
+                      src='/MFA.png'
                       alt="Multi-Factor Authentication"
                       className="skill-icon"
                     />
@@ -370,7 +370,7 @@ function Portfolio() {
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
                       // src={roleIcon}
-                      src='/Pictures/Role.png'
+                      src='/Role.png'
                       alt="RBAC & ABAC"
                       className="skill-icon"
                     />
@@ -399,7 +399,7 @@ function Portfolio() {
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
                       // src={identityIcon}
-                      src='/Pictures/Identity.png'
+                      src='/Identity.png'
                       alt="Identity Federation"
                       className="skill-icon"
                     />
@@ -424,7 +424,7 @@ function Portfolio() {
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
                       // src={automationIcon}
-                      src='/Pictures/automation.png'
+                      src='/automation.png'
                       alt="Automation"
                       className="skill-icon"
                     />
@@ -526,7 +526,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={htmlIcon}
-                          src='/Pictures/HTML.png'
+                          src='/HTML.png'
                           alt="HTML5"
                           className="skill-icon"
                         />
@@ -551,7 +551,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img 
                         // src={cssIcon}
-                        src='/Pictures/css.png'
+                        src='/css.png'
                          alt="CSS3" className="skill-icon" />
                       </div>
                       <h5 className="card-title mb-3">CSS3</h5>
@@ -574,7 +574,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={jsIcon}
-                          src='/Pictures/JS.png'
+                          src='/JS.png'
                           alt="JavaScript"
                           className="skill-icon"
                         />
@@ -597,7 +597,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={reactIcon}
-                          src='/Pictures/React.png'
+                          src='/React.png'
                           alt="React.js"
                           className="skill-icon"
                         />
@@ -631,7 +631,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={nodeIcon}
-                          src='/Pictures/NodeJS.png'
+                          src='/NodeJS.png'
                           alt="Node.js"
                           className="skill-icon"
                         />
@@ -656,7 +656,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={dbIcon}
-                          src='/Pictures/DB.png'
+                          src='/DB.png'
                           alt="MongoDB"
                           className="skill-icon"
                         />
@@ -681,7 +681,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={apiIcon}
-                          src='/Pictures/RESTfulAPI.png'
+                          src='/RESTfulAPI.png'
                           alt="RESTful APIs"
                           className="skill-icon"
                         />
@@ -706,7 +706,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={authAuthIcon}
-                          src='/Pictures/Authetication&Authorization.png'
+                          src='/Authetication&Authorization.png'
                           alt="Authentication"
                           className="skill-icon"
                         />
@@ -739,7 +739,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img 
                         // src={javaIcon}
-                        src='/Pictures/java.png'
+                        src='/java.png'
                         alt="Java" className="skill-icon" />
                       </div>
                       <h5 className="card-title mb-3">Java</h5>
@@ -760,7 +760,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={dsIcon}
-                          src='/Pictures/DS.png'
+                          src='/DS.png'
                           alt="Data Structures"
                           className="skill-icon"
                         />
@@ -785,7 +785,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={psIcon}
-                          src='/Pictures/PS.png'
+                          src='/PS.png'
                           alt="PowerShell"
                           className="skill-icon"
                         />
@@ -810,7 +810,7 @@ function Portfolio() {
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                         <img
                           // src={cIcon}
-                          src='/Pictures/C.png'
+                          src='/C.png'
                           alt="C Programming"
                           className="skill-icon"
                         />
@@ -893,7 +893,7 @@ function Portfolio() {
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
                         // src={oktaIcon}
-                        src='/Pictures/Okta.png'
+                        src='/Okta.png'
                         alt="Okta"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -929,7 +929,7 @@ function Portfolio() {
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
                         // src={entraIcon}
-                        src='/Pictures/Entra.png'
+                        src='/Entra.png'
                         alt="Microsoft Entra"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -962,7 +962,7 @@ function Portfolio() {
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
                         // src={workflowIcon}
-                        src='/Pictures/Workflows.png'
+                        src='/Workflows.png'
                         alt="Okta Workflows"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -998,7 +998,7 @@ function Portfolio() {
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
                         // src={powerAutomateIcon}
-                        src='/Pictures/PowerAutomate.png'
+                        src='/PowerAutomate.png'
                         alt="Power Automate"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -1034,7 +1034,7 @@ function Portfolio() {
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
                         // src={gitIcon}
-                        src='/Pictures/GitHub.png'
+                        src='/GitHub.png'
                         alt="GitHub"
                         className="img-fluid"
                         style={{ height: "60px" }}
@@ -1071,7 +1071,7 @@ function Portfolio() {
                     <div className="tool-icon-container mb-4 mx-auto bg-white rounded-circle p-4">
                       <img
                         // src={postmanIcon}
-                        src='/Pictures/Postman.png'
+                        src='/Postman.png'
                         alt="Postman"
                         className="img-fluid"
                         style={{ height: "60px" }}
