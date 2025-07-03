@@ -49,7 +49,6 @@ import postmanIcon from './assets/PostMan.png';
 import { useState } from "react";
 import axios from "axios";
 
-
 function Portfolio() {
   const [formData, setFormData] = useState({
     userName: "",
@@ -67,7 +66,6 @@ function Portfolio() {
     }));
   };
 
-  // Handle form submission
   // Add state for alert and loading
   const [alert, setAlert] = useState({ show: false, message: "", variant: "" });
   const [isLoading, setIsLoading] = useState(false);
@@ -121,11 +119,11 @@ function Portfolio() {
       }, 5000);
     }
   };
+
   return (
     <>
       {/* Navigation Bar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-
         <div className="container">
           <a className="navbar-brand fw-bold fs-3" href="#">
             <span style={{ color: "#37759e" }}>Thilagavathi</span> MC
@@ -168,7 +166,6 @@ function Portfolio() {
                   Work Experience
                 </a>
               </li>
-
               <li className="nav-item mx-1">
                 <a className="nav-link px-3 py-2 rounded" href="#project">
                   Projects
@@ -182,12 +179,10 @@ function Portfolio() {
             </ul>
           </div>
         </div>
-
       </nav>
 
       {/* Hero Section */}
       <section id="about" className="hero-section py-5 bg-gradient-primary">
-
         <div className="container py-5">
           <div className="row align-items-center">
             <div className="col-lg-8 pe-lg-5">
@@ -233,21 +228,20 @@ function Portfolio() {
               </div>
 
               <div className="mt-4 btn-group-hero">
-  <a href="#contact" className="btn btn-hero btn-hero-primary m-1">
-    Contact Me
-  </a>
-  <a href="#project" className="btn btn-hero btn-hero-primary m-1">
-    View Projects
-  </a>
- <a 
-  href="/Thilagavathi - Resume.pdf" 
-  download="Thilagavathi_Resume.pdf"
-  className="btn btn-hero btn-hero-primary m-1"
->
-  Download Resume
-</a>
-</div>
-
+                <a href="#contact" className="btn btn-hero btn-hero-primary m-1">
+                  Contact Me
+                </a>
+                <a href="#project" className="btn btn-hero btn-hero-primary m-1">
+                  View Projects
+                </a>
+                <a 
+                  href="/Thilagavathi-Resume.pdf" 
+                  download="Thilagavathi_Resume.pdf"
+                  className="btn btn-hero btn-hero-primary m-1"
+                >
+                  Download Resume
+                </a>
+              </div>
             </div>
             <div className="col-lg-4 mt-5 mt-lg-0 text-center">
               <div className="profile-frame position-relative">
@@ -264,13 +258,11 @@ function Portfolio() {
             </div>
           </div>
         </div>
-
       </section>
 
       {/* IAM Skills Section */}
       <section id="iam-skills" className="py-5 bg-light">
         <div className="container py-4">
-
           <div className="section-header text-center mb-5">
             <h2 className="display-5 fw-bold mb-3">IAM Expertise</h2>
             <p className="lead text-muted">
@@ -418,7 +410,7 @@ function Portfolio() {
                   <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
                     <img
                       src={automationIcon}
-                      alt="Automation"
+                      alt="IAM Automation"
                       className="skill-icon"
                     />
                   </div>
@@ -437,17 +429,13 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </section>
 
       {/* Development Skills Section */}
       <section id="dev-skills" className="py-5 bg-white">
-
         <div className="container py-4">
-
           <div className="section-header text-center mb-5">
             <h2 className="display-5 fw-bold mb-3">Technical Skills</h2>
             <p className="lead text-muted">
@@ -512,7 +500,6 @@ function Portfolio() {
               aria-labelledby="frontend-tab"
             >
               <div className="row g-4">
-
                 <div className="col-md-6 col-lg-3">
                   <div className="card h-100 skill-card border-0 shadow-sm hover-lift">
                     <div className="card-body text-center p-4">
@@ -541,9 +528,7 @@ function Portfolio() {
                   <div className="card h-100 skill-card border-0 shadow-sm hover-lift">
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
-                        <img 
-                        src={cssIcon}
-                         alt="CSS3" className="skill-icon" />
+                        <img src={cssIcon} alt="CSS3" className="skill-icon" />
                       </div>
                       <h5 className="card-title mb-3">CSS3</h5>
                       <p className="card-text text-muted">
@@ -602,7 +587,6 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
 
@@ -613,7 +597,6 @@ function Portfolio() {
               aria-labelledby="backend-tab"
             >
               <div className="row g-4">
-
                 <div className="col-md-6 col-lg-3">
                   <div className="card h-100 skill-card border-0 shadow-sm hover-lift">
                     <div className="card-body text-center p-4">
@@ -707,7 +690,6 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
 
@@ -722,9 +704,7 @@ function Portfolio() {
                   <div className="card h-100 skill-card border-0 shadow-sm hover-lift">
                     <div className="card-body text-center p-4">
                       <div className="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-3">
-                        <img 
-                        src={javaIcon}
-                        alt="Java" className="skill-icon" />
+                        <img src={javaIcon} alt="Java" className="skill-icon" />
                       </div>
                       <h5 className="card-title mb-3">Java</h5>
                       <p className="card-text text-muted">
@@ -807,7 +787,6 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -816,7 +795,6 @@ function Portfolio() {
 
       {/* Tools Section */}
       <section id="tools" className="py-5 bg-light">
-
         <div className="container py-4">
           <div className="section-header text-center mb-5">
             <h2 className="display-5 fw-bold mb-3">IAM Tools & Technologies</h2>
@@ -1140,119 +1118,114 @@ function Portfolio() {
             </div>
           </div>
         </div>
-
       </section>
 
-{/* Experience Section */}
-<section id="experience" className="py-5 bg-white">
-  <div className="container py-4">
-    <div className="section-header text-center mb-5">
-      <h2 className="display-5 fw-bold mb-3">Professional Journey</h2>
-      <p className="lead text-muted">Blending security engineering with full-stack development</p>
-    </div>
+      {/* Experience Section */}
+      <section id="experience" className="py-5 bg-white">
+        <div className="container py-4">
+          <div className="section-header text-center mb-5">
+            <h2 className="display-5 fw-bold mb-3">Professional Journey</h2>
+            <p className="lead text-muted">Blending security engineering with full-stack development</p>
+          </div>
 
-    <div className="timeline">
-      
-      {/* LTIMindtree */}
-      <div className="timeline-item">
-        <div className="card border-0 shadow-sm hover-lift mb-4">
-          <div className="card-body p-4">
-            <div className="d-flex align-items-center mb-3">
-              <div className="bg-primary-soft rounded-3 p-2 me-3">
-                <FontAwesomeIcon icon={faShieldAlt} className="text-primary" />
-              </div>
-              <div>
-                <h4 className="mb-0">Information Security Consultant</h4>
-                <p className="text-muted mb-0">LTIMindtree | May 2025 – Present</p>
+          <div className="timeline">
+            {/* LTIMindtree */}
+            <div className="timeline-item">
+              <div className="card border-0 shadow-sm hover-lift mb-4">
+                <div className="card-body p-4">
+                  <div className="d-flex align-items-center mb-3">
+                    <div className="bg-primary-soft rounded-3 p-2 me-3">
+                      <FontAwesomeIcon icon={faShieldAlt} className="text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="mb-0">Information Security Consultant</h4>
+                      <p className="text-muted mb-0">LTIMindtree | May 2023 – Present</p>
+                    </div>
+                  </div>
+                  <ul className="mb-0 ps-3">
+                    <li className="mb-2">Implementing IAM solutions to support secure access across enterprise systems</li>
+                    <li className="mb-2">Working on automation of user lifecycle and access governance using Okta & Power Automate</li>
+                    <li>Collaborating with teams to design security-first development workflows</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <ul className="mb-0 ps-3">
-              <li className="mb-2">Implementing IAM solutions to support secure access across enterprise systems</li>
-              <li className="mb-2">Working on automation of user lifecycle and access governance using Okta & Power Automate</li>
-              <li>Collaborating with teams to design security-first development workflows</li>
-            </ul>
-          </div>
-        </div>
-      </div>
 
-      {/* Freelancing */}
-      <div className="timeline-item">
-        <div className="card border-0 shadow-sm hover-lift mb-4">
-          <div className="card-body p-4">
-            <div className="d-flex align-items-center mb-3">
-              <div className="bg-primary-soft rounded-3 p-2 me-3">
-                <FontAwesomeIcon icon={faLaptopCode} className="text-primary" />
-              </div>
-              <div>
-                <h4 className="mb-0">Creative Designer & MERN Developer</h4>
-                <p className="text-muted mb-0">Self Employed | November 2024 – April 2025</p>
+            {/* Freelancing */}
+            <div className="timeline-item">
+              <div className="card border-0 shadow-sm hover-lift mb-4">
+                <div className="card-body p-4">
+                  <div className="d-flex align-items-center mb-3">
+                    <div className="bg-primary-soft rounded-3 p-2 me-3">
+                      <FontAwesomeIcon icon={faLaptopCode} className="text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="mb-0">Creative Designer & MERN Developer</h4>
+                      <p className="text-muted mb-0">Self Employed | November 2022 – April 2023</p>
+                    </div>
+                  </div>
+                  <ul className="mb-0 ps-3">
+                    <li className="mb-2">Built a full-stack interactive app with React, Node.js, and Express</li>
+                    <li className="mb-2">Designed clean, responsive UI/UX with optimized performance</li>
+                    <li>Enabled seamless data flow and real-time interaction using REST APIs</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <ul className="mb-0 ps-3">
-              <li className="mb-2">Built a full-stack interactive app with React, Node.js, and Express</li>
-              <li className="mb-2">Designed clean, responsive UI/UX with optimized performance</li>
-              <li>Enabled seamless data flow and real-time interaction using REST APIs</li>
-            </ul>
-          </div>
-        </div>
-      </div>
 
-      {/* AVASOFT – Security Engineer */}
-      <div className="timeline-item">
-        <div className="card border-0 shadow-sm hover-lift mb-4">
-          <div className="card-body p-4">
-            <div className="d-flex align-items-center mb-3">
-              <div className="bg-primary-soft rounded-3 p-2 me-3">
-                <FontAwesomeIcon icon={faLock} className="text-primary" />
-              </div>
-              <div>
-                <h4 className="mb-0">Security Engineer</h4>
-                <p className="text-muted mb-0">AVASOFT | July 2023 – October 2024</p>
-              </div>
-            </div>
-            <ul className="mb-0 ps-3">
-              <li className="mb-2">Contributed to internal tooling and secure app development</li>
-              <li className="mb-2">Streamlined IAM ticket resolution via Power Automate integration</li>
-              <li className="mb-2">Implemented security best practices in development workflows</li>
-              <li className="mb-2">Worked closely with IAM engineers to integrate backend logic into access workflows</li>
-              <li className="mb-2">Supported audits and role-based access control implementations</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      {/* AVASOFT – Cybersecurity Trainee */}
-      <div className="timeline-item">
-        <div className="card border-0 shadow-sm hover-lift">
-          <div className="card-body p-4">
-            <div className="d-flex align-items-center mb-3">
-              <div className="bg-primary-soft rounded-3 p-2 me-3">
-                <FontAwesomeIcon icon={faGraduationCap} className="text-primary" />
-              </div>
-              <div>
-                <h4 className="mb-0">Cybersecurity Trainee</h4>
-                <p className="text-muted mb-0">AVASOFT | January 2023 – June 2023</p>
+            {/* AVASOFT – Security Engineer */}
+            <div className="timeline-item">
+              <div className="card border-0 shadow-sm hover-lift mb-4">
+                <div className="card-body p-4">
+                  <div className="d-flex align-items-center mb-3">
+                    <div className="bg-primary-soft rounded-3 p-2 me-3">
+                      <FontAwesomeIcon icon={faLock} className="text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="mb-0">Security Engineer</h4>
+                      <p className="text-muted mb-0">AVASOFT | July 2022 – October 2022</p>
+                    </div>
+                  </div>
+                  <ul className="mb-0 ps-3">
+                    <li className="mb-2">Contributed to internal tooling and secure app development</li>
+                    <li className="mb-2">Streamlined IAM ticket resolution via Power Automate integration</li>
+                    <li className="mb-2">Implemented security best practices in development workflows</li>
+                    <li className="mb-2">Worked closely with IAM engineers to integrate backend logic into access workflows</li>
+                    <li className="mb-2">Supported audits and role-based access control implementations</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <ul className="mb-0 ps-3">
-  <li className="mb-2">Assisted in implementing and testing IAM workflows including user provisioning and access review processes</li>
-  <li className="mb-2">Worked on endpoint security hardening and monitored policy compliance across systems</li>
-  <li className="mb-2">Supported VAPT (Vulnerability Assessment & Penetration Testing) by preparing test environments and analyzing security reports</li>
-  <li className="mb-2">Helped configure and monitor email security solutions to detect phishing and spam attempts</li>
-  <li className="mb-2">Gained knowledge experience with firewall rules, VPN, and basic network security configurations</li>
-</ul>
+
+            {/* AVASOFT – Cybersecurity Trainee */}
+            <div className="timeline-item">
+              <div className="card border-0 shadow-sm hover-lift">
+                <div className="card-body p-4">
+                  <div className="d-flex align-items-center mb-3">
+                    <div className="bg-primary-soft rounded-3 p-2 me-3">
+                      <FontAwesomeIcon icon={faGraduationCap} className="text-primary" />
+                    </div>
+                    <div>
+                      <h4 className="mb-0">Cybersecurity Trainee</h4>
+                      <p className="text-muted mb-0">AVASOFT | January 2022 – June 2022</p>
+                    </div>
+                  </div>
+                  <ul className="mb-0 ps-3">
+                    <li className="mb-2">Assisted in implementing and testing IAM workflows including user provisioning and access review processes</li>
+                    <li className="mb-2">Worked on endpoint security hardening and monitored policy compliance across systems</li>
+                    <li className="mb-2">Supported VAPT (Vulnerability Assessment & Penetration Testing) by preparing test environments and analyzing security reports</li>
+                    <li className="mb-2">Helped configure and monitor email security solutions to detect phishing and spam attempts</li>
+                    <li className="mb-2">Gained knowledge experience with firewall rules, VPN, and basic network security configurations</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
+      </section>
 
       {/* Projects Section */}
       <section id="project" className="py-5 bg-white">
-
         <div className="container py-4">
           <div className="section-header text-center mb-5">
             <h2 className="display-5 fw-bold mb-3">Professional Projects</h2>
@@ -1549,7 +1522,6 @@ function Portfolio() {
             <h4 className="mb-4 pb-2 border-bottom">Full Stack Projects</h4>
 
             <div className="row g-4">
-
               {/* Project 1 */}
               <div className="col-md-4">
                 <div className="card h-100 border-0 shadow-sm">
@@ -1572,6 +1544,8 @@ function Portfolio() {
                       <a
                         href="https://emotionease.in"
                         className="btn btn-primary w-100"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Live Demo
                       </a>
@@ -1604,6 +1578,8 @@ function Portfolio() {
                       <a
                         href="https://crewconnect-employeeportal.netlify.app"
                         className="btn btn-primary w-100"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Live Demo
                       </a>
@@ -1682,17 +1658,14 @@ function Portfolio() {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-
       </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-5 bg-light">
         <div className="container py-4">
-
           <div className="section-header text-center mb-5">
             <h2 className="display-5 fw-bold mb-3">Get In Touch</h2>
             <p className="lead text-muted">
@@ -1754,22 +1727,6 @@ function Portfolio() {
                             LinkedIn Profile
                           </a>
                         </li>
-                        {/* <li>
-                          <a
-                            href="https://github.com/ThilagaMC"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-decoration-none d-flex align-items-center text-dark"
-                          >
-                            <div className="icon-wrapper bg-primary-soft rounded-circle me-3 p-2">
-                              <FontAwesomeIcon
-                                icon={faGithub}
-                                className="text-primary"
-                              />
-                            </div>
-                            GitHub Profile
-                          </a>
-                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -1799,7 +1756,7 @@ function Portfolio() {
 
                       <form onSubmit={handleSubmit}>
                         <div className="mb-3">
-                          <label htmlFor="name" className="form-label">
+                          <label htmlFor="userName" className="form-label">
                             Name
                           </label>
                           <input
@@ -1808,6 +1765,7 @@ function Portfolio() {
                             id="userName"
                             value={formData.userName}
                             onChange={handleChange}
+                            required
                           />
                         </div>
                         <div className="mb-3">
@@ -1874,13 +1832,11 @@ function Portfolio() {
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
       {/* Footer */}
       <footer className="bg-dark text-white py-5">
-
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 mb-3 mb-md-0">
@@ -1918,7 +1874,6 @@ function Portfolio() {
             </div>
           </div>
         </div>
-
       </footer>
     </>
   );
