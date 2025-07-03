@@ -228,20 +228,22 @@ function Portfolio() {
               </div>
 
               <div className="mt-4 btn-group-hero">
-                <a href="#contact" className="btn btn-hero btn-hero-primary m-1">
-                  Contact Me
-                </a>
-                <a href="#project" className="btn btn-hero btn-hero-primary m-1">
-                  View Projects
-                </a>
-                <a 
-                  href="/Thilagavathi-Resume.pdf" 
-                  download="Thilagavathi_Resume.pdf"
-                  className="btn btn-hero btn-hero-primary m-1"
-                >
-                  Download Resume
-                </a>
-              </div>
+  <a href="#contact" className="btn btn-hero btn-hero-primary m-1">
+    Contact Me
+  </a>
+  <a href="#project" className="btn btn-hero btn-hero-primary m-1">
+    View Projects
+  </a>
+  <a
+  href="../public/assets/Thilagavathi-Resume.pdf"
+  download="Thilagavathi_Resume.pdf"
+  className="btn btn-hero btn-hero-primary m-1"
+>
+  Download Resume
+</a>
+
+</div>
+
             </div>
             <div className="col-lg-4 mt-5 mt-lg-0 text-center">
               <div className="profile-frame position-relative">
