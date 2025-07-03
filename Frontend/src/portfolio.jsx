@@ -240,12 +240,12 @@ function Portfolio() {
     View Projects
   </a>
   <a 
-    href="../public/Thilagavathi - Resume.pdf" 
-    download="Thilagavathi_Resume.pdf"
-    className="btn btn-hero btn-hero-primary m-1"
-  >
-    Download Resume
-  </a>
+  href="/Thilagavathi - Resume.pdf" 
+  download="Thilagavathi_Resume.pdf"
+  className="btn btn-hero btn-hero-primary m-1"
+>
+  Download Resume
+</a>
 </div>
 
             </div>
