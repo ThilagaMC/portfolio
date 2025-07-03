@@ -253,7 +253,8 @@ function Portfolio() {
               <div className="profile-frame position-relative">
                 <img
                   // src={profilePic}
-                  src='/IMG_7609.jpg'
+                  // src='/IMG_7609.jpg'
+                  src='./assets/IMG_7609.jpg'
                   alt="Thilagavathi MC"
                   className="profile-img img-fluid rounded-4 shadow-lg"
                 />
