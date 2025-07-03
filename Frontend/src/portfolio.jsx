@@ -265,7 +265,7 @@ function Portfolio() {
   <a href="#project" className="btn btn-hero btn-hero-primary m-1">
     View Projects
   </a>
-  <a 
+ <a 
   href="/Thilagavathi - Resume.pdf" 
   download="Thilagavathi_Resume.pdf"
   className="btn btn-hero btn-hero-primary m-1"
