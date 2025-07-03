@@ -20,7 +20,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 // Import all images
-import profile from "../public/Pictures/IMG_7609.jpg"
 import profilePic from "../public/Pictures/IMG_7609.JPG";
 import lcmIcon from "../public/Pictures/LCM.svg";
 import authIcon from "../public/Pictures/Authorization.png";
