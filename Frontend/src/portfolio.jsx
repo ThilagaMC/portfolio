@@ -46,7 +46,7 @@ import powerAutomateIcon from './assets/PA.png';
 import gitIcon from './assets/Git.png';
 import postmanIcon from './assets/PostMan.png';
 
-// import profilePic from "../public/Pictures/IMG_7609.JPG";
+// import profilePic from "../public/Pictures/IMG_7609.jpg";
 // import lcmIcon from "../public/Pictures/LCM.svg";
 // import authIcon from "../public/Pictures/Authorization.png";
 // import mfaIcon from "../public/Pictures/MFA.png";
