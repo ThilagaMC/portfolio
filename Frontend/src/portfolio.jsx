@@ -21,6 +21,7 @@ import {
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 // Import all images
 import profilePic from './assets/IMG_7609.jpg';
+import profile from ''./assets/20250713_172707_Original.jpg'
 import lcmIcon from './assets/LCM.svg';
 import authIcon from './assets/Authorization.png';
 import mfaIcon from './assets/MFA.png';
@@ -249,7 +250,7 @@ function Portfolio() {
             <div className="col-lg-4 mt-5 mt-lg-0 text-center">
               <div className="profile-frame position-relative">
                 <img
-                  src={profilePic}
+                  src={profile}
                   alt="Thilagavathi MC"
                   className="profile-img img-fluid rounded-4 shadow-lg"
                 />
