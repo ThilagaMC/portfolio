@@ -20,13 +20,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 // Import all images
-<<<<<<< HEAD
-// import profilePic from './assets/IMG_7609.jpg';
 import profile from './assets/Profile.JPG';
-=======
-import profilePic from './assets/IMG_7609.jpg';
-import profile from ''./assets/20250713_172707_Original.jpg'
->>>>>>> c5dde48ed402a089de733842ce5fd4d6d706b986
 import lcmIcon from './assets/LCM.svg';
 import authIcon from './assets/Authorization.png';
 import mfaIcon from './assets/MFA.png';
